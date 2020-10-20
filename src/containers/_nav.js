@@ -13,7 +13,7 @@ export default [
     _tag: 'CSidebarNavDropdown',
     name: 'Posts',
     route: '/posts',
-    icon: 'cil-layers',
+    icon: 'cil-pin',
     _children: [
       {
         _tag: 'CSidebarNavItem',
@@ -54,7 +54,7 @@ export default [
     _tag: 'CSidebarNavDropdown',
     name: 'Apparence',
     route: '/apparence',
-    icon: 'cil-color-palette',
+    icon: 'cil-speedometer',
     _children: [
       {
         _tag: 'CSidebarNavItem',
@@ -82,7 +82,7 @@ export default [
     _tag: 'CSidebarNavItem',
     name: 'Settings',
     to: '/settings',
-    icon: 'cil-cog',
+    icon: 'cil-settings',
     badge: {
       color: 'info',
       text: 'NEW',
